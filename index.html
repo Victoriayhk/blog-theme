@@ -1,34 +1,73 @@
-<!DOCTYPE html><html><head><meta charset='UTF-8' /><title>Index Page</title><style type="text/css">
-* { text-align: center; }
-body { color: #CECECE; background: url(bg.jpg); font: 20px Verdana,sans-serif; }
-#header { margin-top: 20%; }
-h1 { font-size: 30pt; }
-ul { list-style-type: none; }
-li { display: inline-block; }
-a { color: #FFF; padding: 0.5em 1em; text-decoration: none; border-radius: 4px; }
-a:hover { color: #AAA; }
-.orange { border: solid 2px #FF7F24; }
-.green { border: solid 2px #00CD66; }
-.blue { border: solid 2px #1E90FF; }
-footer { font-size: 10pt; position: absolute; left: 0; bottom: 0; right: 0; }
-footer li { border-left: 1px solid; padding: 0 1em; }
-footer li:first-child { border: 0; }
-</style></head>
-<body>
-	<div id = "header">
-		<header><h1>首页是用来卖萌的</h1></header>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'/>
+		<title>Index Page</title>
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="shortcut icon" href="img/icon"/>
+	</head>
+	
+	<body>
 		<nav>
-			<ul>
-				<li><a class = "orange" href="archive.html">人工智能向</a></li>
-				<li><a class = "green" href="archive.html">前端开发向</a></li>
-				<li><a class = "blue" href="archive.html">生活技能向</a></li>
-			</ul>
+			
+			<!-- 基本头像图片 共7张 -->
+			<div id="jules">
+				<div class="c1">
+					<img class="p1" src="img/jules/1.png"/>
+					<img class="p2" src="img/jules/2.png"/>
+					<img class="p3" src="img/jules/3.png"/>
+				</div>
+				<div class="c2">
+					<img class="p4" src="img/jules/4.png"/>
+					<div class="c3">
+						<img class="p5" src="img/jules/5.png"/>
+						<div class="c4">
+							<img class="p6" src="img/jules/6.png"/>
+							<img class="p7" src="img/jules/7.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 彩色阴影(红, 黄, 蓝)  -->
+			<div id="shadow">
+				<div class="c1">
+					<div class="p1"></div>
+					<div class="p2"></div>
+					<div class="p3"></div>
+				</div>
+				<div class="c2">
+					<div class="p4"></div>
+					<div class="c3">
+						<div class="p5"></div>
+						<div class="c4">
+							<div class="p6"></div>
+							<div class="p7"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 提示和跳转  -->
+			<div id="link">
+				<div class="c1">
+					<div class="p1"></div>
+					<div class="p2"></div>
+					<div class="p3"></div>
+				</div>
+				<div class="c2">
+					<div class="p4"></div>
+					<div class="c3">
+						<div class="p5"></div>
+						<div class="c4">
+							<div class="p6"></div>
+							<div class="p7"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</nav>
-	</div>
-	<footer>
-		<ul>
-			<li>2015</li>
-			<li>&copy;Yi Huikang, All Right Revered</li>
-		</ul>
-	</footer>
-</body></html>
+
+	</body>
+</html>

@@ -1,0 +1,148 @@
+/* 绝对位置 */
+
+#jules, #shadow {
+	font-size: 0;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 546px;
+	height: 546px;
+	margin-top: -360px;
+	margin-left: -273px;
+}
+
+/* 格子的固定大小和摆放方式 */
+
+.c1 {
+	display: inline-block;
+	width: 156px;
+	height: 546px;
+	margin-right: 12px;
+}
+
+.c2 {
+	display: inline-block;
+	width: 378px;
+	height: 546px;
+}
+
+.c3 {
+	display: block;
+	width: 378px;
+	height: 153px;
+}
+
+.c4 {
+	display: inline-block;
+	width: 78px;
+	height: 153px;
+}
+
+.p1 {
+	display: block;
+	width: 156px;
+	height: 177px;
+	margin-bottom: 12px;
+}
+
+.p2 {
+	display: block;
+	width: 156px;
+	height: 192px;
+	margin-bottom: 12px;
+}
+
+.p3 {
+	display: block;
+	width: 156px;
+	height: 153px;
+}
+
+.p3 {
+	display: block;
+	width: 156px;
+	height: 153px;
+}
+
+.p4 {
+	display: block;
+	width: 378px;
+	height: 381px;
+	margin-bottom: 12px;
+}
+
+.p5 {
+	display: inline-block;
+	width: 288px;
+	height: 153px;
+	margin-right: 12px;
+}
+
+.p6 {
+	display: inline-block;
+	width: 78px;
+	height: 69px;
+	margin-bottom: 12px;
+}
+
+.p7 {
+	display: inline-block;
+	width: 78px;
+	height: 72px;
+}
+
+/* 基本的图片背景的边框颜色为黑 */
+
+#jules {
+	background-color: #000;
+}
+
+/* 彩色阴影 模仿格子图 */
+
+#shadow .p1, #shadow .p2, #shadow .p5, #shadow .p6 {
+	background-color: gray;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+	opacity: 0.5;
+}
+
+#shadow .p3 {
+	background-color: blue;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+	opacity: 0.5;
+}
+
+#shadow .p4 {
+	background-color: red;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+	opacity: 0.5;
+}
+
+#shadow .p7 {
+	background-color: darkorange;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity:0.5;
+	opacity: 0.5;
+}
+
+#shadow .p1:hover,
+#shadow .p2:hover,
+#shadow .p3:hover,
+#shadow .p4:hover,
+#shadow .p5:hover,
+#shadow .p6:hover,
+#shadow .p7:hover {
+	background-color: transparent;
+	-moz-transition: background 0.4s ease-in-out;
+	-webkit-transition: background 0.4s ease-in-out;
+	-ms-transition: background 0.4s ease-in-out;
+	transition: background 0.4s ease-in-out;
+}
+
+/* 跳转提示和跳转 */
