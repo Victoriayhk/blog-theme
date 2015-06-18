@@ -7,7 +7,7 @@
 	top: 50%;
 	width: 546px;
 	height: 546px;
-	margin-top: -400px;
+	margin-top: -273px;
 	margin-left: -273px;
 }
 
@@ -111,17 +111,20 @@
 	padding: 8px;
 }
 
+#link .p4 {
+	text-align: right;
+}
+
+#link .p4 p:first-child {
+	margin-top: 280px;
+}
+
 #link .p5 h1 {
-	font-size: 60px;
+	font-size: 40px;
 }
 
 #link .p5 p {
 	font-size: 20px;
-}
-
-#link .p1, #link .p2, #link .p3,
-#link .p4, #link .p5, #link .p6, #link .p7 {
-	padding: 0px;
 }
 
 /* 彩色阴影 模仿格子图 */
